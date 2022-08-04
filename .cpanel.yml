@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/c91z9zaxuqm9/public_html/ibreaker.app
+    - /bin/cp -R images $DEPLOYPATH
